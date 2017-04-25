@@ -1,5 +1,9 @@
+
+import _ from 'lodash'
+
 function component(){
-	var element = document.querySelector('div');
+	var element = document.createElement('div');
+	element.innerHTML = _.join(['hello','world'])
 	return element
 }
 
