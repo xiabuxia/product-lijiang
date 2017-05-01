@@ -1,0 +1,89 @@
+
+
+/*导航条 start*/
+
+.head {
+    width: 1000px;
+	  margin: 0 auto;
+    height: 160px;
+    background-image: url('../../images/head.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    opacity: 1;
+	  position: relative;
+
+}
+.head .nav-a {
+	position: absolute;
+	right: 40px;
+	top: 35px;
+	font-size: 12px;
+}
+.nav-a a {
+	color: #000;
+}
+.nav-a li {
+	float: left;
+	margin-left: 5px;
+	width: 60px;
+	text-align: center;
+}
+.nav-a li:hover a {
+	font-size: 13px;
+	color: #ff6600;
+}
+.nav-a li:nth-child(1),.nav-a li:nth-child(3) {
+	background: #C9D6BE;
+	padding: 2px 5px;
+}
+.nav-a li:nth-child(2), .nav-a li:nth-child(4) {
+	background: #DFDBCA;
+	padding: 2px 5px;
+}
+ .nav-a li:nth-child(5) {
+	 width: 70px;
+	 height: 20px;
+	 line-height:20px;
+	 font-size: 16px;
+	 text-align: center;
+ }
+ .nav-a li:nth-child(5):hover {
+	 font-size: 12px;
+ }
+
+.head .nav-b {
+	position: absolute;
+	right: 41px;
+	bottom: 33px;
+
+}
+.head .nav-b  li {
+	float: left;
+	margin-left: 24px;
+	
+}
+.head .nav-b  li a {
+	color: #fff;
+}
+.head .nav-b  li a:hover {
+	color: #F8F801;
+}
+.head .nav-b  .activeing {
+	color: #F8F801;
+}
+/*导航条 end*/
+/*轮播 start*/
+
+.container {
+  width: 1000px;
+  height: 468px;
+  margin: 0px auto;
+  background: #F0F5F9;
+}
+
+
+
+
+
+
+/*轮播 end*/

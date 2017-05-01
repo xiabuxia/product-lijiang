@@ -1,0 +1,361 @@
+.main-left {
+    width: 636px;
+    height: 1600px;
+    margin-left:22px;  
+}
+.left-head {
+    width: 100%;
+    height: 106px;
+    background: url('../../images/zxgg.jpg');
+    background-repeat: no-repeat;
+    margin-left: -2px;
+    border-top: 1px solid #A2C7E2;
+}
+.left-head a {
+    color: #FC6D0F;
+    display: block;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.main-left .carousel-ct {
+    width: 545px;
+    height: 118px;
+    margin-top: 15px;
+    margin-left: 42px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.main-left .carousel-img {
+	position:absolute;
+    width: 1090px;
+	z-index: -1;
+}
+.main-left .carousel-img li {
+    float: left;
+}
+.main-left .carousel-img li img {
+    width: 545px;
+    height: 118px;
+}
+.main-left .play{
+	width: 50px;
+	height: 100%;
+	position: absolute;
+	opacity: 0.3;
+	transition: all 0.1s;
+}
+.main-left .play-pre-ct {
+	left: -42px;
+	background: linear-gradient(to left, #5F93B8, blue);
+}
+.main-left .play-next-ct {
+	right: -42px;
+	background: linear-gradient(to right, #5F93B8, blue);
+}
+.main-left .carousel-btn {
+	height: 0;
+	width: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+
+}
+.main-left .btn-pre {
+	border-right: 20px solid #fff;
+	margin-left: 5px;
+}
+.main-left .btn-next {
+	border-left: 20px solid #fff;
+	margin-left: 10px;
+}
+/**/
+.intorduce {
+    margin-top:20px;
+    width: 100%;
+    height: 187px;
+    background: url('../../images/index_about.jpg');
+    font-size: 14px;
+    border-top: 1px dashed;
+}
+.intorduce p {
+    margin-top: 64px;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.intorduce ul {
+     margin-left: 20px;
+     margin-top: 20px;
+}
+.intorduce ul li {
+    float: left;
+    margin-left: 20px;
+} 
+.intorduce ul li a {
+    font-size: 16px;
+    color: #FF6600;
+}
+.intorduce ul li:hover a{
+    color: #FF0000;
+}
+.sight-head {
+    width: 100%;
+    height: 48px;
+    background:url('../../images/r9.jpg');
+    margin-top: 65px;
+}
+.sight-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.sight-img li {
+    margin-top: 20px;
+    width: 274px;
+    text-align: center;
+}
+.sight-img li a img {
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+
+.main-right {
+    height: 1000px;
+    width: 343px;
+    
+
+    
+}
+/*vidio start*/
+
+.text-ct {
+    width: 100%;
+    height: 224px;
+    background: url('../../images/sp.jpg');
+    background-repeat: no-repeat;
+    background-size:  370px 219px;
+    margin-left: -9px;
+    border-top: 1px solid #ccc;
+    
+}
+.text {
+    width: 93%;
+    height: 203px;
+    background: #000;
+    writing-mode:vertical-lr;
+    margin-top: 14px;
+    margin-left: 22px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+.text p {
+    line-height: 19px;
+    margin-top: 37px;
+}
+.text p:nth-child(1) {
+    margin-left: 4px;
+}
+/*vidio end*/
+/*buy-imformation start*/
+.buy-imformation {
+    width: 100%;
+    height: 296px;
+    background: url('../../images/ms.jpg');
+    background-repeat: no-repeat;
+    border-top: 1px solid #ccc;
+}
+.buy-imformation ul {
+    margin-top: 107px;
+    margin-left: 153px;
+}
+.buy-imformation ul li {
+    display: block;
+    margin-top: 20px;
+}
+.buy-imformation ul li a:hover {
+    color: #ff6600;
+}
+.buy-imformation ul li a {
+    color: #fff;
+}
+/*buy-imformation end*/
+/*weather-ajax start*/
+.weather {
+    width: 328px;
+    height: 164px;
+    font-size: 14px;
+    box-shadow: 2px 11px 23px -12px rgba(0,0,0,0.4);
+    position: relative;
+}
+.weather p {
+    margin-left: 50px;
+}
+.weather img {
+    position: absolute;
+    left: 75%;
+    top:0%;
+
+}
+/*weather-ajax end*/
+
+/*tab start*/
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.tab {
+    width: 92%;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+.tab .more {
+    position:absolute;
+    right: 20px;
+    top: 27px;
+    font-size: 14px;
+} 
+.tab .more a:hover {
+    color: #FF6600;
+}
+.tab-header {
+    width: 98%;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.tab-header>li {
+    width: 80px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    
+    cursor: pointer;
+}
+.tab-content{
+    width: 91%;
+    height: 61px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    display: none;
+    position: relative;
+    top: -1px;
+    z-index: -1;
+
+    
+}
+.show {
+    display: block;
+}
+.active {
+    width: 78px!important;
+    margin-top: -1px!important;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+
+}
+.sight-news li {
+    width: 200px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    font-size: 14px;
+    line-height: 24px;
+    border-bottom: 1px dashed #aaa;  
+    margin-left: 20px;
+}
+.sight-news li a {
+    color: #000;
+}
+/*tab end*/
+/*calender start*/
+.visitor-num {
+    width: 343px;
+    height: 75px;
+    background: url('../../images/rl.jpg');
+    margin-top: 40px;
+    margin-left: -5px;
+}
+.calender {
+    width: 100%;
+    height: 209px;
+    margin-left: 20px;
+    background: url('../../images/rls.jpg');
+    margin-left: -3px;
+    border-top: 1px solid #ccc;
+}
+.calender ul {
+    margin-left: 28px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calender ul li {
+    margin-left:-1px;
+    margin-top: -1px;
+    display: inline-block;
+    width: 71px;
+    height: 61px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 24px;
+    text-align: center;
+    line-height: 71px;
+    font-style:italic;
+    color: #ff6600;
+}
+
+.addBackground {
+    background: url('../../images/c2.jpg');
+}
+
+/*calender end*/
+/*互动天地 start*/
+.communicate {
+    width: 100%;
+    height: 53px;
+    background: url('../../images/hd.jpg');
+    margin-top: 20px;
+    position: relative;
+    border-top: 1px solid #fff;
+}
+.communicate a {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.communicate a:hover {
+    color: #FF0000;
+}
+.communicate ul {
+    font-size: 12px;
+    margin-left: 35px;
+    border-bottom: 1px dashed #ccc;
+}
+.communicate ul li:first-child {
+    font-size: 14px;
+}
+.communicate ul li {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.communicate .command1 {
+    margin-top: 60px;
+    
+}
+.communicate .command2 {
+    margin-top: 10px;
+}
+/*互动天地 end*/

@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,height=device-height"/>
     <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
 </head>
 <body>
-    <script src="dist/bundle.js"></script>
+    <div id="header"></div>
+    <div id="main"></div>
+    <div id="footer"></div>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="dist/js/bundle.js"></script>
+    <script type="text/javascript" src="dist/js/koala.min.1.5.js"></script>
+    <script type="text/javascript">
+        Qfast.add('widgets', { path: "dist/js/terminator2.2.min.js", type: "js", requires: ['fx'] });  
+        Qfast(false, 'widgets', function () {
+            K.tabs({
+                id: 'decoroll2',//焦点图包裹id  
+                conId: "decoimg_a2",//大图域包裹id  
+                tabId:"deconum2",//小圆点数字提示id
+                tabTn:"a",
+                conCn: '.decoimg_b2',//大图域配置class       
+                auto: 1,//自动播放 1或0
+                effect: 'fade',//效果配置
+                eType: 'mouseover',// 鼠标事件
+                pageBt:true,//是否有按钮切换页码
+                bns: ['.prev', '.next'],//前后按钮配置class                          
+                interval: 3000// 停顿时间  
+            }) 
+        }) 
+    </script>
+
+<script type="text/javascript">
+
+</script>
 </body>
 </html>
