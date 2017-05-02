@@ -4,13 +4,13 @@
 
 .head {
     width: 1000px;
-	  margin: 0 auto;
+	margin: 0 auto;
     height: 160px;
     background-image: url('../../images/head.jpg');
     background-repeat: no-repeat;
     background-size:contain;
     opacity: 1;
-	  position: relative;
+	position: relative;
 
 }
 .head .nav-a {
@@ -78,7 +78,7 @@
   width: 1000px;
   height: 468px;
   margin: 0px auto;
-  background: #F0F5F9;
+  background: #000;
 }
 
 
