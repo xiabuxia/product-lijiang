@@ -78,7 +78,8 @@
   width: 1000px;
   height: 468px;
   margin: 0px auto;
-  background: #000;
+  background: url('../../images/head-main.jpg');
+  background-size: cover;
 }
 
 
